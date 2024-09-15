@@ -1,0 +1,81 @@
+*{
+    background-color: black;
+    color: white;
+}
+ul li{
+    display: inline;
+}
+ul{
+    background-color: black;
+   color: red;
+   height: 5rem;
+   
+    
+}
+ul,li,a{
+    text-decoration: none;
+    padding: 0.5rem;
+}
+ul,li,a:hover{
+    color: aqua;
+}
+header ul{
+    border: 3px solid white;
+}
+header ul:hover{
+    border: 3px solid rgb(161, 217, 30);
+}
+.home img{
+    width: 500px;
+    height: 300px;
+    /* float: right; */
+    border: 6px solid black;
+    margin: 10px;
+    padding: 0;
+}
+.home img:hover{
+    border: 6px solid goldenrod;
+}
+.home h3{
+    margin: 10px;
+    background-color: black;
+    color: white;
+    height: 2rem;
+    width: 30rem;
+
+}
+.home h3:hover{
+    background-color: aqua;
+}
+
+.home h5{
+    margin: 0px;
+    width: 30rem;
+    background-color: black;
+    color: white;
+    height: 2rem;
+    float: right;
+}
+.home h5:hover{
+    background-color: goldenrod;
+}
+.skill h2{
+    color: white;
+}
+.skill h2:hover{
+color: brown;
+}
+ol li:hover{
+    background-color: goldenrod;
+    color: white;
+}
+.contact {
+    text-align: center;
+    border: 3px solid mediumaquamarine;
+}
+input[type=submit]{
+    background-color: green;
+}
+input[type=text]{
+    width: 200px;
+}
